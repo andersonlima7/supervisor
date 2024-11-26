@@ -70,4 +70,7 @@ export const Obstacle = styled("div")`
   height: 40px;
   position: absolute;
   background-color: red;
+  background: url("/public/assets/wall.png") no-repeat center;
+  background-size: cover;
+  cursor: grab;
 `;
